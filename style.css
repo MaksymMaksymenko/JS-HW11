@@ -1,0 +1,82 @@
+html {
+    margin: 0;
+    height: 100%;
+    background: white;
+    background-size: cover;
+  }
+  
+  #calculator {
+    width: 310px;
+    height: auto;
+    margin: 100px auto;
+    padding: 18px 18px 10px;
+    background: darkgrey;
+    border-radius: 2px;
+  }
+  
+ 
+  .display .screen {
+    height: 38px;
+    width: 195px;
+    margin-left: 70px;
+    padding: 0 8px;
+    background: #FFF0F5;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    text-align: right;
+    letter-spacing: 1px;
+  }
+
+  
+  .keyboard, .display {
+    overflow: hidden;
+  }
+  
+  .keyboard span, .display span.clear {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    width: 65px;
+    height: 35px;
+    background: white;
+    border-radius: 2px;
+    margin: 0 7px 11px 0;
+    color: black;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.35s ease;
+  }
+  
+  .keyboard span.operator {
+    background: white;
+  }
+  
+  .keyboard span:hover {
+    background:pink;
+    color: white;
+  }
+  
+  .display span.clear {
+    background: lightsalmon;
+    color: white;
+  }
+  
+  .keyboard span:hover {
+    background: lightblue;
+    color: white;
+  }
+  
+  .keyboard span.eval:hover {
+    background: lightgreen;
+    color: white;
+  }
+  
+  .display span.clear:hover {
+    background: red;
+    color: white;
+  }  
+  
